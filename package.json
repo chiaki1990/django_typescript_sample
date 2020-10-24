@@ -1,0 +1,34 @@
+{
+  "name": "try_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaki1990/base_dev_env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiaki1990/base_dev_env/issues"
+  },
+  "homepage": "https://github.com/chiaki1990/base_dev_env#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "css-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^1.2.0",
+    "postcss-loader": "^4.0.4",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.4",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
